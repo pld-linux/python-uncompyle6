@@ -4,9 +4,9 @@ Version:	1.1
 Release:	1
 License:	GPL v3
 Group:		Applications
-Source0:	https://github.com/wibiti/uncompyle2/archive/dffbdc4/%{name}-%{version}.tar.gz
-# Source0-md5:	1875d3d9b00ee0b08c845a16795e19ad
-URL:		https://github.com/wibiti/uncompyle2
+Source0:	https://github.com/Mysterie/uncompyle2/archive/d7fdf67/%{name}-%{version}.tar.gz
+# Source0-md5:	a6b02b58bb0301989af243a2bf6dcc00
+URL:		https://github.com/Mysterie/uncompyle2
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildArch:	noarch
