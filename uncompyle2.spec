@@ -22,15 +22,12 @@ Additionally, it will only run on Python 2.7.
 mv %{name}-*/* .
 
 %build
-%{__python} setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__python} setup.py install \
-	--skip-build \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
 
+%py_install
 %py_postclean
 
 %clean
