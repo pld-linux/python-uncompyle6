@@ -1,11 +1,11 @@
 Summary:	A Python decompiler, disassembler and cross-version bytecode library
 Name:		python-uncompyle6
-Version:	2.3.2
+Version:	2.3.4
 Release:	1
 License:	MIT
 Group:		Applications
-Source0:	https://github.com/rocky/python-uncompyle6/archive/release-%{version}.tar.gz
-# Source0-md5:	fc742b43ff144e533d934d9e4a66523a
+Source0:	https://github.com/rocky/python-uncompyle6/archive/release-%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	bb547a9ba2f1b6b6bf1b894b46107cea
 URL:		https://github.com/rocky/python-uncompyle6/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
