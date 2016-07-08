@@ -7,12 +7,12 @@
 %define		pypi_name	uncompyle6
 Summary:	A Python decompiler, disassembler and cross-version bytecode library
 Name:		python-%{pypi_name}
-Version:	2.4.0
+Version:	2.6.0
 Release:	1
 License:	MIT
 Group:		Applications
 Source0:	https://github.com/rocky/python-uncompyle6/archive/release-%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	056bdea13e4159fc9283d43d3dc3743c
+# Source0-md5:	bfa928d524c800d4c61ff46e3c119e6e
 URL:		https://github.com/rocky/python-uncompyle6/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
