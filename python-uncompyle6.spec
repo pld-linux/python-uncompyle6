@@ -10,7 +10,7 @@
 Summary:	A Python decompiler, disassembler and cross-version bytecode library
 Name:		python-%{pypi_name}
 Version:	2.7.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Applications
 Source0:	https://github.com/rocky/python-uncompyle6/archive/release-%{version}/%{name}-%{version}.tar.gz
