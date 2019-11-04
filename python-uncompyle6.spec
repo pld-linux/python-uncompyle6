@@ -9,12 +9,12 @@
 %define		pypi_name	uncompyle6
 Summary:	A Python decompiler, disassembler and cross-version bytecode library
 Name:		python-%{pypi_name}
-Version:	2.7.0
-Release:	4
+Version:	3.5.0
+Release:	1
 License:	MIT
 Group:		Applications
-Source0:	https://github.com/rocky/python-uncompyle6/archive/release-%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	17887c06c40b23641490815432c44b99
+Source0:	https://github.com/rocky/python-uncompyle6/archive/%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	2e7f32b662a565a843b1de3bfd54a5b6
 URL:		https://github.com/rocky/python-uncompyle6/
 %if %{with python2}
 BuildRequires:	python-modules
@@ -53,7 +53,7 @@ and has been tested on Python running versions 2.6, 2.7, 3.3, 3.4 and
 3.5.
 
 %prep
-%setup -qn %{name}-release-%{version}
+%setup -q
 
 # There is something wrong with this file that breaks tests
 %{__rm} test/bytecode_2.4/02_complex.pyc
